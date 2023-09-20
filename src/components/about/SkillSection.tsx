@@ -1,7 +1,8 @@
 "use client"
 
 import React, { useState } from 'react';
-import ModalVideo from 'react-modal-video';
+
+// import ModalVideo from 'react-modal-video';
 import thumb from "../../../public/assets/img/images/progress_img.png"
 import Image from 'next/image';
 const SkillSection = () => {
@@ -68,11 +69,11 @@ const SkillSection = () => {
                     </div>
                 </div>
             </section>
-            <ModalVideo channel="youtube" isOpen={isOpen} videoId="4K6Sh1tsAW4"
+            {/* <ModalVideo channel="youtube" isOpen={isOpen} videoId="4K6Sh1tsAW4"
                 onClose={() => {
                     openVideoModal();
                 }}
-            />
+            /> */}
         </>
     );
 };
