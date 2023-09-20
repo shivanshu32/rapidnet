@@ -12,8 +12,6 @@
     "@popperjs/core": "^2.11.8",
     "@react-native-async-storage/async-storage": "^1.19.0",
     "@reduxjs/toolkit": "^1.9.5",
-    "@types/react": "18.2.12",
-    "@types/react-dom": "18.2.5",
     "@types/react-redux": "^7.1.25",
     "bootstrap": "5.2.2",
     "eslint": "8.43.0",
@@ -45,6 +43,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.3",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
     "@types/react-modal-image": "^2.6.0",
     "@types/react-modal-video": "^1.2.0",
     "@types/react-slick": "^0.23.10"
