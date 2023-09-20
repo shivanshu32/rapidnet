@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Autoplay } from 'swiper';
 import 'swiper/css/bundle'
 import tvshows_data from '@/data/tvshows-data';
-import ModalVideo from "react-modal-video";
+//import ModalVideo from "react-modal-video";
 import Image from "next/image";
 
 const TvShows = () => {
@@ -32,7 +32,7 @@ const TvShows = () => {
 
     return (
         <>
-            <ModalVideo channel="youtube" isOpen={isOpen} videoId={singleVideo} onClose={() => { openVideoModal(singleVideo) }} />
+            {/* <ModalVideo channel="youtube" isOpen={isOpen} videoId={singleVideo} onClose={() => { openVideoModal(singleVideo) }} /> */}
 
             <section className="streaming-area streaming-bg" style={{ backgroundImage: `url(${'/assets/img/bg/streaming_bg.jpg'})` }}>
                 <div className="container">
