@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import React, { useState } from 'react';
-import ModalVideo from 'react-modal-video';
+//import ModalVideo from 'react-modal-video';
 import FactSection from './FactSection';
 import bgImg from "../../../public/assets/img/bg/video_bg.jpg"
 const ExperienceSection = () => {
@@ -33,11 +33,11 @@ const ExperienceSection = () => {
                     </div>
                 </div>
             </section>
-            <ModalVideo channel="youtube" isOpen={isOpen} videoId="4K6Sh1tsAW4"
+            {/* <ModalVideo channel="youtube" isOpen={isOpen} videoId="4K6Sh1tsAW4"
                 onClose={() => {
                     openVideoModal();
                 }}
-            />
+            /> */}
         </>
 
     );
